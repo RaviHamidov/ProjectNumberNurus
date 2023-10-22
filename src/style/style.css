@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* NavBar Start */
+.nav .nav_menu {
+  background: #35444f;
+}
+.nav .nav_menu ul {
+  margin: 0;
+}
+.nav .nav_menu li {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 1rem 1.5rem;
+  text-decoration: none;
+  list-style-type: none;
+  border-left: 1px solid #fff;
+  transition: 0.3s;
+}
+
+.nav .nav_menu li:hover {
+  transition: 0.3s;
+  background: #222f3a;
+}
+/* NavBar End */
+
+/* Main Start */
+
+/* Sidebar Start  */
+.main_primary {
+  border: 1px solid #000;
+}
+.main_primary-sidebar {
+  text-decoration: none;
+  list-style-type: none;
+}
+.main_primary-sidebar li {
+  color: #485863;
+  font-family: "Roboto", sans-serif;
+  font-size: 27px;
+  padding: 1rem 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 100% */
+  transition: 0.3s;
+}
+
+.main_primary-sidebar li:hover {
+  background: #dbdbdb;
+  padding: 1rem 3rem;
+  transition: 0.3s;
+}
+/* Sidebar End  */
+
+/* About Start  */
+.main_secondary-image {
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+}
+.main_secondary img {
+  width: 220px;
+  height: 281px;
+}
+.main_secondary-content p {
+  margin-top: 2rem;
+}
+/* About End  */
+
+/* Main Start */
+
+/* Footer Start */
+.footer_menu {
+  background: rgba(99, 105, 110, 0.48);
+}
+.footer_menu-primary li {
+  list-style-type: none;
+}
+.footer_menu-primary li a {
+  text-decoration: none;
+  color: #0c1927;
+  font-family: "Roboto", sans-serif;
+  padding: 1rem 1.5rem;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 100% */
+}
+.footer_menu-primary li a:hover {
+  color: #3181a6;
+  text-decoration: underline;
+}
+.footer_menu-secondary p {
+  color: #010101;
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 100% */
+}
+/* Footer End  */
