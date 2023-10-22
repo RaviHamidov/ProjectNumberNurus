@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 /* NavBar Start */
@@ -14,7 +15,6 @@
 }
 .nav .nav_menu li {
   color: #fff;
-  font-family: "Roboto", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -36,7 +36,7 @@
 
 /* Sidebar Start  */
 .main_primary {
-  border: 1px solid #000;
+  border: 1px solid rgba(0, 0, 0, 0.3);
 }
 .main_primary-sidebar {
   text-decoration: none;
@@ -44,7 +44,6 @@
 }
 .main_primary-sidebar li {
   color: #485863;
-  font-family: "Roboto", sans-serif;
   font-size: 27px;
   padding: 1rem 2rem;
   font-style: normal;
@@ -62,7 +61,7 @@
 
 /* About Start  */
 .main_secondary-image {
-  border: 1px solid #000;
+  border: 1px solid rgba(0, 0, 0, 0.3);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,7 +88,6 @@
 .footer_menu-primary li a {
   text-decoration: none;
   color: #0c1927;
-  font-family: "Roboto", sans-serif;
   padding: 1rem 1.5rem;
   font-size: 22px;
   font-style: normal;
@@ -102,10 +100,86 @@
 }
 .footer_menu-secondary p {
   color: #010101;
-  font-family: "Roboto", sans-serif;
-  font-size: 22px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 100% */
 }
 /* Footer End  */
+
+.arrowDown {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+
+/* Phone Start */
+.phone {
+  margin-top: 5rem;
+}
+
+.phone_content {
+  padding: 1rem;
+  border-radius: 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.phone_content .phone_pro {
+  padding: 0;
+}
+.phone_content .phone_pro .makeup {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.phone_content .phone_pro .makeup img {
+  width: 10px;
+  margin: 0.5rem;
+  padding: 0.1rem;
+  background-color: green;
+  border-radius: 50%;
+}
+
+.phone .phone_notificationBar-primary p {
+  color: #000;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.333px;
+}
+
+.phone .phone_title {
+  color: #000;
+  text-align: center;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px; /* 129.412% */
+  letter-spacing: -0.408px;
+  padding: 0.5rem 0 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.phone .phone_contacts {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.phone .phone_contacts img {
+  padding: 1rem 0.5rem;
+  width: 80px;
+  height: 96px;
+}
+.phone .phone_contacts .phone_contacts-content {
+  padding: 1rem;
+}
+.phone_buttons {
+  margin-top: 15vh;
+  padding: 0.5rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+/* Phone End */
